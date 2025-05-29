@@ -18,11 +18,10 @@ An interactive React pathfinding visualizer that implements Dijkstra's Algorithm
 
 ### Prerequisites
 
-Ensure you have **Node.js** and **npm** installed on your system.
+Ensure you have **Node.js** and **npm** installed.
 
 ### Installation
 
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone https://github.com/yourusername/algo-visualizer.git
-   cd algo-visualizer
