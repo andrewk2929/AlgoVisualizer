@@ -1,0 +1,11 @@
+.weight-label {
+  font-size: 0.75rem;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+.node {
+  position: relative;
+}

@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+  
+  .grid-row {
+    display: flex;
+  }
+  
+  .node {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    position: relative;
+  }
+  
+  .node.start {
+    background-color: green;
+  }
+  
+  .node.end {
+    background-color: red;
+  }
+  
+  .node.wall {
+    background-color: black;
+  }
+  
+  .node.visited {
+    background-color: lightblue;
+  }
+  
+  .node.path {
+    background-color: yellow;
+  }
+
+  .btn {
+    padding: 5px;
+    margin: 10px;
+  }
+
+  .startSqr {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin: 5px;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+  }
+  .endSqr {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin: 5px;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+  }
+  .wallSqr {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin: 5px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+  }
+  
